@@ -1,0 +1,190 @@
+body{
+    
+    background-color: #ffe3c2;
+    background-size: auto auto;
+    background-attachment: scroll;
+    font-family: Tahoma;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+
+::-webkit-scrollbar {         /*настройка скролл бара*/
+    width: 8px;
+    background-color: #d99f65;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #795548;
+    border-radius: 10px;
+}
+
+.knopka {
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    width: 55px;
+    height: 55px;
+    border: 4px;
+    background-color: #795548;
+    background-image: url(../img/strela.jpg);
+    border-radius: 25%; 
+    
+}
+
+.osnova {
+    max-width: 1600px;
+    margin: 0px auto;
+    min-width: 420px;
+}
+
+@media (max-width: 1200px) {
+    .osnova{
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 992px) {
+    .osnova{
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 767px) {
+    .osnova{
+        max-width: 500;
+    }
+}
+@media (max-width: 525px) {
+    .osnova{
+        max-width: 320;
+    }
+}
+@media (max-width: 335px) {
+    .osnova{
+        max-width: none;
+    }
+}
+
+
+.Shapka {
+    margin: 30px;
+    border-bottom: 2px solid #795548;
+    padding-bottom: 25px;
+    max-width: 100%;
+}
+.life {
+    float: left;
+    margin: 0px 30px;
+    max-width: 400px;
+    
+}
+.zagolovki{
+    margin: 20px;
+    display: inline;
+    left: 50%;
+    max-width: 100%;
+    color: #795548;
+    text-decoration: none; /*Убираем подчеркивание у ссылок*/
+    font-size: 36px;
+
+}
+
+.card {
+    clear: both;
+    max-width: 100%;
+
+}
+
+.photo {
+    max-height: 300px;
+    max-width: 400px;
+    
+    
+    
+}
+
+@media (max-width: 1200px){
+    .blok-photo{
+        min-width: 200px;
+}
+}
+.blok-photo {
+    max-height: 300px;
+    max-width: 400px;
+    margin: 30px 100px; 
+    float: right;  
+    box-shadow: 2px 2px 5px 5px #000;
+    
+}
+.title-crd {
+    font-size: 28px;
+    text-align: left;
+    color: #795548;
+    margin: 60px 30px;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #795548;
+    padding-bottom: 15px;
+    
+}
+.text-crd {
+    text-align: left;
+    font-size: 18px;
+    color: #795548;
+    margin: 10px 20px;
+    max-width: 600px;
+    float: left;
+}
+
+.cardleft {
+    float: left;
+    margin: 70px 30px;
+    max-width: 600px;
+    clear: both;
+}
+
+.text2-crd {
+    font-size: 24px;
+    color: #795548;
+    text-align: left;
+}
+
+.cardright {
+    float: right;
+    margin: 70px 150px;
+    max-width: 200px;
+
+}
+
+.text3-crd {
+    font-size: 24px;
+    color: #795548; 
+    text-align: center;
+}
+.text4-crd {
+    font-size: 24px;
+    color: #795548;
+    text-align: left;
+    text-decoration: none;
+    
+}
+
+.Proekti {
+    clear: both;
+    margin: 70px 30px;
+    border-bottom: 2px solid #795548;
+    padding-bottom: 25px;
+    max-width: 100%;
+}
+
+.photo-proektov {
+    max-width: 100%; 
+    margin: 0 auto;
+}
+
+.flutter {
+    margin: 0px 50px;
+    margin-top: -50px;
+    max-width: 100%;
+}
